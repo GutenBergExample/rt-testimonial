@@ -30,5 +30,8 @@
     "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack",
     "dev-test": "cross-env BABEL_ENV=default NODE_ENV=development webpack",
     "dev": "cross-env BABEL_ENV=default webpack --watch"
+  },
+  "dependencies": {
+    "react-slick": "0.17.1"
   }
 }
